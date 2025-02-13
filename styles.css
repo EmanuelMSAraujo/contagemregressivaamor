@@ -6,7 +6,6 @@ html, body {
     font-family: 'Brush Script MT', cursive; /* Fonte Brush Script */
     background-color: #FC9292;
     color: #BF360C;
-    overflow: hidden; /* Evita barras de rolagem */
 }
 
 /* Container principal */
@@ -25,8 +24,8 @@ html, body {
 
 /* Cabeçalho */
 .header {
-    margin-top: 180px; /* Espaço para as flores acima */
-    margin-bottom: 30px; /* Espaço entre o cabeçalho e a galeria */
+    position: relative;
+    margin-bottom: 20px;
 }
 
 /* Imagens das flores */
