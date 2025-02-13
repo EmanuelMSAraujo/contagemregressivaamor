@@ -22,18 +22,12 @@ html, body {
     position: relative;
 }
 
-/* Cabeçalho */
-.header {
-    position: relative;
-    margin-bottom: 20px;
-}
-
 /* Imagens das flores */
 .flor-topo-esquerdo {
     position: absolute;
-    top: 80px; /* Ajuste para posicionar abaixo do topo */
-    left: 80px; /* Ajuste para posicionar próximo à borda esquerda */
-    width: 200px; /* Tamanho ajustado */
+    top: 20px; /* Ajuste para posicionar abaixo do topo */
+    left: 20px; /* Ajuste para posicionar próximo à borda esquerda */
+    width: 150px; /* Tamanho ajustado para mobile */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
     filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
@@ -42,21 +36,24 @@ html, body {
 
 .flor-topo-direito {
     position: absolute;
-    top: 80px; /* Ajuste para posicionar abaixo do topo */
-    right: 80px; /* Ajuste para posicionar próximo à borda direita */
-    width: 200px; /* Tamanho ajustado */
+    top: 20px; /* Ajuste para posicionar abaixo do topo */
+    right: 20px; /* Ajuste para posicionar próximo à borda direita */
+    width: 150px; /* Tamanho ajustado para mobile */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
     filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
     opacity: 0.9; /* Leve transparência */
 }
 
-/* Título */
+/* Cabeçalho */
+.header {
+    margin-top: 180px; /* Espaço para as flores acima */
+    margin-bottom: 30px; /* Espaço entre o cabeçalho e a galeria */
+}
+
 h1 {
-    font-size: 3em; /* Aumentei o tamanho da fonte */
+    font-size: 2.5em; /* Tamanho ajustado para mobile */
     margin: 0;
-    position: relative;
-    z-index: 2;
     color: #D84315;
 }
 
@@ -66,33 +63,64 @@ h1 {
 }
 
 #countdown-timer {
-    font-size: 2.5em; /* Aumentei o tamanho da fonte */
+    font-size: 1.8em; /* Tamanho ajustado para mobile */
     font-weight: bold;
     color: #D84315;
 }
 
 /* Galeria de fotos */
 .gallery {
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 100%; /* Ocupa toda a largura */
+    max-width: 800px; /* Limita a largura máxima */
 }
 
 .gallery h2 {
-    font-size: 2.5em; /* Aumentei o tamanho da fonte */
+    font-size: 2em; /* Tamanho ajustado para mobile */
     margin-bottom: 20px;
     color: #D84315;
 }
 
 .photos {
     display: flex;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
     justify-content: center;
-    gap: 20px; /* Aumentei o espaçamento entre as fotos */
+    gap: 10px; /* Espaçamento entre as imagens */
 }
 
 .photos img {
-    width: 200px; /* Aumentei o tamanho das fotos */
-    height: 200px;
+    width: 100%; /* Imagens ocupam 100% do contêiner */
+    max-width: 200px; /* Limita o tamanho máximo */
+    height: auto; /* Mantém a proporção */
     border-radius: 15px;
     object-fit: cover;
     border: 3px solid #BF360C;
-    filter: brightness(1.05) saturate(1.1); /* Suaviza as fotos da galeria */
+    filter: brightness(1.05) saturate(1.1); /* Suaviza as fotos */
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+    .flor-topo-esquerdo, .flor-topo-direito {
+        width: 100px; /* Tamanho menor para mobile */
+    }
+
+    .header {
+        margin-top: 120px; /* Menos espaço no topo para mobile */
+    }
+
+    h1 {
+        font-size: 2em; /* Tamanho menor para mobile */
+    }
+
+    #countdown-timer {
+        font-size: 1.5em; /* Tamanho menor para mobile */
+    }
+
+    .gallery h2 {
+        font-size: 1.8em; /* Tamanho menor para mobile */
+    }
+
+    .photos img {
+        max-width: 150px; /* Tamanho menor para mobile */
+    }
 }
