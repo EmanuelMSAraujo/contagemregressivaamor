@@ -32,7 +32,7 @@ html, body {
 .flor-topo-esquerdo {
     position: absolute;
     top: -80px; /* Mais afastada do topo */
-    right: -50px; /* Mais afastada da borda esquerda */
+    right: -80px; /* Mais afastada da borda esquerda */
     width: 250px; /* Aumentei o tamanho */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
@@ -42,7 +42,7 @@ html, body {
 .flor-topo-direito {
     position: absolute;
     top: -80px; /* Mais afastada do topo */
-    left: -50px; /* Mais afastada da borda direita */
+    left: -80px; /* Mais afastada da borda direita */
     width: 250px; /* Aumentei o tamanho */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
