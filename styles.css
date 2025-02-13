@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: 'Brush Script MT', cursive; /* Fonte Brush Script */
-    background-color: #FFF3E0;
+    background-color: #FFE0B2;
     color: #BF360C;
     overflow: auto; /* Permite rolagem se necessário */
 }
@@ -17,7 +17,7 @@ html, body {
     justify-content: flex-start; /* Alinha o conteúdo no topo */
     min-height: 100vh; /* Garante que o container ocupe pelo menos a altura da tela */
     background-color: #FFE0B2;
-    padding: 20px;
+    padding: 50px;
     box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
     text-align: center;
     position: relative;
@@ -28,7 +28,7 @@ html, body {
     position: absolute;
     top: 20px; /* Ajuste para posicionar abaixo do topo */
     left: 20px; /* Ajuste para posicionar próximo à borda esquerda */
-    width: 150px; /* Tamanho ajustado para mobile */
+    width: 200px; /* Tamanho ajustado para mobile */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
     filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
@@ -39,7 +39,7 @@ html, body {
     position: absolute;
     top: 20px; /* Ajuste para posicionar abaixo do topo */
     right: 20px; /* Ajuste para posicionar próximo à borda direita */
-    width: 150px; /* Tamanho ajustado para mobile */
+    width: 200px; /* Tamanho ajustado para mobile */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
     filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
