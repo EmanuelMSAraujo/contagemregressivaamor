@@ -60,31 +60,31 @@ h1 {
 }
 
 #countdown-timer {
-    font-size: 2.5em; /* Aumentei o tamanho da fonte */
+    font-size: 3em; /* Aumentei o tamanho da fonte */
     font-weight: bold;
     color: #D84315;
 }
 
 /* Galeria de fotos */
 .gallery {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .gallery h2 {
-    font-size: 2.5em; /* Aumentei o tamanho da fonte */
-    margin-bottom: 20px;
+    font-size: 3em; /* Aumentei o tamanho da fonte */
+    margin-bottom: 30px;
     color: #D84315;
 }
 
 .photos {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Aumentei o espaçamento entre as fotos */
+    gap: 30px; /* Aumentei o espaçamento entre as fotos */
 }
 
 .photos img {
-    width: 200px; /* Aumentei o tamanho das fotos */
-    height: 200px;
+    width: 400px; /* Aumentei o tamanho das fotos */
+    height: 400px;
     border-radius: 15px;
     object-fit: cover;
     border: 3px solid #BF360C;
