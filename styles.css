@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Brush Script', serif;
+    font-family: 'Brush Script MT', cursive; /* Fonte Brush Script */
     background-color: #FC9292;
     color: #BF360C;
     overflow: hidden; /* Evita barras de rolagem */
@@ -17,43 +17,43 @@ html, body {
     justify-content: center;
     height: 100vh; /* Ocupa 100% da altura da tela */
     background-color: #FFE0B2;
-    padding: 50px;
+    padding: 20px;
     box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
     text-align: center;
 }
 
 /* Cabeçalho */
 .header {
-    position: relative;
-    margin-bottom: 20px;
+    margin-top: 150px; /* Espaço para as flores acima */
+    margin-bottom: 50px; /* Espaço entre o cabeçalho e a galeria */
 }
 
 /* Imagens das flores */
 .flor-topo-esquerdo {
     position: absolute;
-    top: -120px; /* Ajuste conforme necessário */
-    left: -120px; /* Mais próximo da borda esquerda */
-    width: 250px;
+    top: 20px; /* Ajuste para posicionar abaixo do topo */
+    left: 20px; /* Ajuste para posicionar próximo à borda esquerda */
+    width: 200px; /* Tamanho ajustado */
     z-index: 1;
-    border-radius: 50%;
-    filter: brightness(1.1) saturate(1.2);
-    opacity: 0.9;
+    border-radius: 50%; /* Bordas arredondadas */
+    filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
+    opacity: 0.9; /* Leve transparência */
 }
 
 .flor-topo-direito {
     position: absolute;
-    top: -120px; /* Ajuste conforme necessário */
-    right: -120px; /* Mais próximo da borda direita */
-    width: 250px;
+    top: 20px; /* Ajuste para posicionar abaixo do topo */
+    right: 20px; /* Ajuste para posicionar próximo à borda direita */
+    width: 200px; /* Tamanho ajustado */
     z-index: 1;
-    border-radius: 50%;
-    filter: brightness(1.1) saturate(1.2);
-    opacity: 0.9;
+    border-radius: 50%; /* Bordas arredondadas */
+    filter: brightness(1.1) saturate(1.2); /* Suaviza a imagem */
+    opacity: 0.9; /* Leve transparência */
 }
 
 /* Título */
 h1 {
-    font-size: 3em; /* Aumentei o tamanho da fonte */
+    font-size: 3.5em; /* Aumentei o tamanho da fonte */
     margin: 0;
     position: relative;
     z-index: 2;
@@ -66,7 +66,7 @@ h1 {
 }
 
 #countdown-timer {
-    font-size: 3em; /* Aumentei o tamanho da fonte */
+    font-size: 3.5em; /* Aumentei o tamanho da fonte */
     font-weight: bold;
     color: #D84315;
 }
@@ -77,7 +77,7 @@ h1 {
 }
 
 .gallery h2 {
-    font-size: 3em; /* Aumentei o tamanho da fonte */
+    font-size: 3.5em; /* Aumentei o tamanho da fonte */
     margin-bottom: 30px;
     color: #D84315;
 }
