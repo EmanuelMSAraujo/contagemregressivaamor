@@ -17,7 +17,7 @@ html, body {
     justify-content: center;
     height: 100vh; /* Ocupa 100% da altura da tela */
     background-color: #FFE0B2;
-    padding: 20px;
+    padding: 50px;
     box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
     text-align: center;
 }
