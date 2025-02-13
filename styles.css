@@ -31,8 +31,8 @@ html, body {
 /* Imagens das flores */
 .flor-topo-esquerdo {
     position: absolute;
-    top: 20px; /* Ajuste para posicionar abaixo do topo */
-    left: 20px; /* Ajuste para posicionar próximo à borda esquerda */
+    top: 80px; /* Ajuste para posicionar abaixo do topo */
+    left: 80px; /* Ajuste para posicionar próximo à borda esquerda */
     width: 200px; /* Tamanho ajustado */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
@@ -42,8 +42,8 @@ html, body {
 
 .flor-topo-direito {
     position: absolute;
-    top: 20px; /* Ajuste para posicionar abaixo do topo */
-    right: 20px; /* Ajuste para posicionar próximo à borda direita */
+    top: 80px; /* Ajuste para posicionar abaixo do topo */
+    right: 80px; /* Ajuste para posicionar próximo à borda direita */
     width: 200px; /* Tamanho ajustado */
     z-index: 1;
     border-radius: 50%; /* Bordas arredondadas */
