@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Garamond', serif;
+    font-family: 'Brush Script', serif;
     background-color: #FC9292;
     color: #BF360C;
     overflow: hidden; /* Evita barras de rolagem */
@@ -31,22 +31,24 @@ html, body {
 /* Imagens das flores */
 .flor-topo-esquerdo {
     position: absolute;
-    top: -80px; /* Mais afastada do topo */
-    right: 80px; /* Mais afastada da borda esquerda */
-    width: 250px; /* Aumentei o tamanho */
+    top: -120px; /* Ajuste conforme necessário */
+    left: -120px; /* Mais próximo da borda esquerda */
+    width: 250px;
     z-index: 1;
-    border-radius: 50%; /* Bordas arredondadas */
-    opacity: 0.9; /* Leve transparência para um efeito mais natural */
+    border-radius: 50%;
+    filter: brightness(1.1) saturate(1.2);
+    opacity: 0.9;
 }
 
 .flor-topo-direito {
     position: absolute;
-    top: -80px; /* Mais afastada do topo */
-    left: 80px; /* Mais afastada da borda direita */
-    width: 250px; /* Aumentei o tamanho */
+    top: -120px; /* Ajuste conforme necessário */
+    right: -120px; /* Mais próximo da borda direita */
+    width: 250px;
     z-index: 1;
-    border-radius: 50%; /* Bordas arredondadas */
-    opacity: 0.9; /* Leve transparência para um efeito mais natural */
+    border-radius: 50%;
+    filter: brightness(1.1) saturate(1.2);
+    opacity: 0.9;
 }
 
 /* Título */
