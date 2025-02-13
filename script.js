@@ -1,5 +1,5 @@
 // Defina a data e hora do evento
-const eventDate = new Date("2023-12-31T23:59:59").getTime();
+const eventDate = new Date("2025-06-09T00:00:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
