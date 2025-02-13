@@ -15,7 +15,7 @@ html, body {
     align-items: center;
     justify-content: flex-start; /* Alinha o conteúdo no topo */
     min-height: 100vh; /* Garante que o container ocupe pelo menos a altura da tela */
-    background-color: #FC9292;
+    background-color: #FFE0B2;
     padding: 20px;
     box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
     text-align: center;
