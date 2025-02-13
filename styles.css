@@ -1,35 +1,39 @@
-body {
+/* Reset de margens e preenchimentos */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: 'Arial', sans-serif;
     background-color: #FFF3E0;
     color: #BF360C;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    overflow: hidden; /* Evita barras de rolagem */
 }
 
+/* Container principal */
 .container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa 100% da altura da tela */
     background-color: #FFE0B2;
-    padding: 40px 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    text-align: center;
 }
 
+/* Cabeçalho */
 .header {
     position: relative;
+    margin-bottom: 20px;
 }
 
+/* Imagens das flores */
 .flor-topo-esquerdo {
     position: absolute;
     top: -80px;
     left: -50px;
-    width: 100px;
+    width: 150px; /* Aumentei o tamanho */
     z-index: 1;
 }
 
@@ -37,47 +41,51 @@ body {
     position: absolute;
     top: -80px;
     right: -50px;
-    width: 100px;
+    width: 150px; /* Aumentei o tamanho */
     z-index: 1;
 }
 
+/* Título */
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    font-size: 3em; /* Aumentei o tamanho da fonte */
+    margin: 0;
     position: relative;
     z-index: 2;
+    color: #D84315;
 }
 
+/* Contagem regressiva */
 .countdown {
     margin: 20px 0;
 }
 
 #countdown-timer {
-    font-size: 2em;
+    font-size: 2.5em; /* Aumentei o tamanho da fonte */
     font-weight: bold;
     color: #D84315;
 }
 
+/* Galeria de fotos */
 .gallery {
     margin-top: 30px;
 }
 
 .gallery h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
+    font-size: 2.5em; /* Aumentei o tamanho da fonte */
+    margin-bottom: 20px;
+    color: #D84315;
 }
 
 .photos {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px; /* Aumentei o espaçamento entre as fotos */
 }
 
 .photos img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    width: 200px; /* Aumentei o tamanho das fotos */
+    height: 200px;
+    border-radius: 15px;
     object-fit: cover;
-    border: 2px solid #BF360C;
+    border: 3px solid #BF360C;
 }
