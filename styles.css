@@ -52,9 +52,28 @@ html, body {
     margin-bottom: 30px; /* Espaço entre o cabeçalho e a galeria */
 }
 
+/* Estilos para as frases */
 h1 {
-    font-size: 2.5em; /* Tamanho ajustado para mobile */
-    margin: 0;
+    font-size: 2.5em; /* Tamanho grande para a frase principal */
+    margin: 10px 0; /* Espaçamento */
+    color: #D84315;
+}
+
+h2 {
+    font-size: 2em; /* Tamanho um pouco menor */
+    margin: 10px 0; /* Espaçamento */
+    color: #D84315;
+}
+
+h3 {
+    font-size: 1.8em; /* Tamanho médio */
+    margin: 10px 0; /* Espaçamento */
+    color: #D84315;
+}
+
+h4 {
+    font-size: 1.5em; /* Tamanho menor para a última frase */
+    margin: 10px 0; /* Espaçamento */
     color: #D84315;
 }
 
