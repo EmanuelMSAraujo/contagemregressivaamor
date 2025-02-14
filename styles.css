@@ -60,19 +60,19 @@ h1 {
 }
 
 h2 {
-    font-size: 2em; /* Tamanho um pouco menor */
+    font-size: 2.5em; /* Tamanho um pouco menor */
     margin: 10px 0; /* Espaçamento */
     color: #D84315;
 }
 
 h3 {
-    font-size: 1.8em; /* Tamanho médio */
+    font-size: 2.5em; /* Tamanho médio */
     margin: 10px 0; /* Espaçamento */
     color: #D84315;
 }
 
 h4 {
-    font-size: 1.5em; /* Tamanho menor para a última frase */
+    font-size: 2.5em; /* Tamanho menor para a última frase */
     margin: 10px 0; /* Espaçamento */
     color: #D84315;
 }
@@ -133,11 +133,11 @@ h4 {
     }
 
     #countdown-timer {
-        font-size: 1.5em; /* Tamanho menor para mobile */
+        font-size: 2em; /* Tamanho menor para mobile */
     }
 
     .gallery h2 {
-        font-size: 1.8em; /* Tamanho menor para mobile */
+        font-size: 2em; /* Tamanho menor para mobile */
     }
 
     .photos img {
